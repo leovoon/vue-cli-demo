@@ -8,7 +8,9 @@
 
 <style lang="scss" scoped>
     footer {
-        margin-top: 4em;
+        width: 100%;
+        line-height: 1.5;
+        margin-top: 2rem;
         padding: 1rem;
         background-color: gainsboro;
         text-align: center;
