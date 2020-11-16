@@ -7,7 +7,9 @@
         <h2>{{ location.name }}</h2>
       </place>
     </div>
+    <footerr></footerr>
   </div>
+  
 </div>
 
 
@@ -15,11 +17,13 @@
 
 <script>
 import place from './components/place.vue'
+import footerr from './components/footer.vue'
 
 export default {
   name: 'App',
   components: {
-    place
+    place,
+    footerr
   },
   data(){
     return{
@@ -51,11 +55,13 @@ locations: [
 
 <style>
 body {
+  margin: 0;
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
   font-family: 'NTR', sans-serif;
   background: #eee;
+  position: relative;
 }
 
 h1 {
